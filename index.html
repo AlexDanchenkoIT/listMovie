@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>listMovie</title>
+    <link rel="icon" type="image/png" href="Movie_icon.png" />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="header">
+        <div class="tag-text">СПИСОК ФИЛЬМОВ</div>
+        <div class="tag-year">2023</div>
+        <h1 class="title">Посмотреть</h1>
+      </div>
+      <div class="main">
+        <input
+          class="js-input input"
+          type="text"
+          placeholder="Добавить фильм"
+        />
+
+        <button class="js-button button">
+          <span class="arrow-btn"> </span>
+        </button>
+        <p class="js-input-length input-length">
+          <span class="js-counter-input">0</span>/45
+        </p>
+        <div class="wrapper-movies-list">
+          <ul class="js-movies-list movies-list">
+            <!-- <li>
+              <input type="radio" />
+              <button class="js-close-btn close-btn">
+                <img
+                  class="wraper-close-btn"
+                  src="btn-close.png"
+                  alt="изобращение крестика"
+                />
+              </button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
