@@ -138,7 +138,7 @@ body {
   background-color: #232323;
 }
 
-.input-radio {
+.input-checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -152,11 +152,11 @@ body {
   cursor: pointer;
 }
 
-.input-radio:checked {
+.input-checkbox:checked {
   background-color: darkorchid;
 }
 
-.input-radio[type="checkbox"]:checked + .title-movie {
+.input-checkbox[type="checkbox"]:checked + .title-movie {
   text-decoration: line-through;
 }
 
@@ -165,7 +165,7 @@ body {
   margin-left: 10px;
 }
 
-.input-radio_done {
+.input-checkbox_done {
   opacity: 0.5;
 }
 
